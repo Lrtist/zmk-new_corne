@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
-  Main:
+  MAIN:
   - $$mdi:keyboard-tab$$
   - Q
   - W
@@ -27,7 +27,7 @@ layers:
   - J
   - K
   - L
-  - {t: M, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
   - Z
@@ -48,7 +48,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:keyboard-space$$
   - {t: SYMBOLS, h: '$$mdi:gesture-tap-hold$$'}
-  - {t: SYMBOL, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: SPECIALS, h: '$$mdi:gesture-tap-hold$$'}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: Sft+1, s: Sft+!}
@@ -87,8 +87,8 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - AltGr+3
-  - Sft+{
-  - Sft+}
+  - '{'
+  - '}'
   - {t: '''', s: '"'}
   - {t: \, s: '|'}
   - '{'
@@ -147,7 +147,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  SYMBOL:
+  SPECIALS:
   - {t: '$$mdi:transfer$$', type: trans}
   - '!'
   - '@'
